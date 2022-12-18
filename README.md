@@ -1,16 +1,19 @@
-[![Open Notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wjonasreger/neural_machine_translation/blob/main/neural_machine_translation.ipynb)
-
 ```
-Source sentence: <START> 汤 姆 喜 欢 和 他 的 朋 友 们 踢 足 球 。 <END>
-Target sentence: <START> tom likes to play soccer with his friends . <END>
+Source: 汤姆喜欢和他的朋友们踢足球。
+Target: Tom likes to play soccer with his friends.
 
-[RNN] Predicted sentence: <START> tom likes to study friends with his friends . <END>
-[TF] Predicted sentence: <START> tom and his friends like soccer . <END>
+Translations:
+    [RNN]: Tom likes to study friends with his friends.
+    [TF]: Tom and his friends like soccer.
 ```
 
 # Neural Machine Translation
 
-In this notebook, machine translation is implemented using two deep learning approaches: a Recurrent Neural Network (RNN) and Transformer. Specifically, Sequence to Sequence models for Chinese Mandarin to English translation are trained using [anki data](http://www.manythings.org/anki/). Here is an interactive notebook with a translator for several languages [![Neural Translate](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FNUle-E1SuLS3ciRT6pLgjspLibaTejj?usp=sharing). All language models and associated data can be accessed in `languages` directory. Alternative pre-processing approaches were necessary for languages with different scripts. The notebook demonstrates a unique approach for Chinese Mandarin, but other language groups such as latin script based languages (e.g., English, French, Portuguese, etc.) required alternative pre-processing criteria. For instance, the `hgtk` package was used for pre-processing Hangul script for Korean. Semitic languages such as Arabic and Hebrew required a special step to flip sentence direction prior to model training, and after model inference. Other languages such as Russian was processed more conservatively.
+In this notebook, machine translation is implemented using two deep learning approaches: a Recurrent Neural Network (RNN) and Transformer. Specifically, Sequence to Sequence models for Chinese Mandarin to English translation are trained using [anki data](http://www.manythings.org/anki/). All language models and associated data can be accessed in `languages` directory. Alternative pre-processing approaches were necessary for languages with different scripts. The notebook demonstrates a unique approach for Chinese Mandarin, but other language groups such as latin script based languages (e.g., English, French, Portuguese, etc.) required alternative pre-processing criteria. For instance, the `hgtk` package was used to pre-process Hangul script for Korean. Semitic languages such as Arabic and Hebrew required special steps to flip sentence direction prior to model training, and after model inference. Other languages such as Russian were processed more conservatively.
+
+The original NMT notebook and an interactive demo translator can be accessed in the following links.
+* NMT Notebook: [![Open Notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wjonasreger/neural_machine_translation/blob/main/neural_machine_translation.ipynb)
+* Demo Translator: [![Neural Translate](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FNUle-E1SuLS3ciRT6pLgjspLibaTejj?usp=sharing)
 
 ---
 
