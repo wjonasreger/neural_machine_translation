@@ -13,7 +13,7 @@ In this notebook, machine translation is implemented using two deep learning app
 
 The original NMT notebook and an interactive demo translator can be accessed in the following links.
 * NMT Notebook: [![Open Notebook In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wjonasreger/neural_machine_translation/blob/main/neural_machine_translation.ipynb)
-* Demo Translator: [![Neural Translate](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FNUle-E1SuLS3ciRT6pLgjspLibaTejj?usp=sharing) [[how-to-use](https://github.com/wjonasreger/neural_machine_translation/edit/main/README.md#how-to-use-the-neural-translator)]
+* Demo Translator: [![Neural Translate](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1FNUle-E1SuLS3ciRT6pLgjspLibaTejj?usp=sharing) [[how-to-use](https://github.com/wjonasreger/neural_machine_translation#how-to-use-the-neural-translator)]
 
 ---
 
